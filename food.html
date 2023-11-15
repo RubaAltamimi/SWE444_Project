@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Food Recipes</title>
+    <style>
+      body {
+        font-family: Arial, sans-serif;
+        margin: 0;
+        padding: 20px;
+      }
+  
+      .food-item {
+        display: flex;
+        margin-bottom: 20px;
+      }
+  
+      .food-image {
+        width: 150px;
+        height: 150px;
+        margin-right: 20px;
+        cursor: pointer;
+      }
+  
+      .food-text {
+        flex: 1;
+      }
+    </style>
+</head>
+<body>
+    <header>
+        <a href="#" class="button"></a>
+        <nav class="navigation">
+        <a href="waad.html">Historical Places</a>
+        <a href="#Famous local dishes in Hail">Famous local dishes in Hail</a>
+        <a href="#Visitor Accommodation">Visitor Accommodation</a>
+        <a href="#Seasonal events">Seasonal events</a>
+        <a href="#Hail Samaritan Art">Hail Samaritan Art</a>
+        <a href="#Sales">Sales</a>
+    </nav>
+    </header>
+    <h1> Traditional Food</h1>
+    
+ 
+</head>
+<body>
+
+<div class="food-item" onclick="showRecipe('Pizza')">
+  <img class="food-image" src="food1.jpg" alt="Pizza">
+  <div class="food-text">
+    <h2>مقشوش</h2>
+    <p>Delicious and cheesy pizza with your favorite toppings.</p>
+  </div>
+</div>
+
+<div class="food-item" onclick="showRecipe('Burger')">
+  <img class="food-image" src="food2.png" alt="Burger">
+  <div class="food-text">
+    <h2>Burger</h2>
+    <p>Juicy burger with a perfectly grilled patty, fresh veggies, and special sauce.</p>
+  </div>
+</div>
+
+<div class="food-item" onclick="showRecipe('Pasta')">
+  <img class="food-image" src="food3.png" alt="Pasta">
+  <div class="food-text">
+    <h2>Pasta</h2>
+    <p>Classic pasta dish with al dente noodles and a flavorful tomato sauce.</p>
+  </div>
+</div>
+
+<script>
+  function showRecipe(foodName) {
+    // You can replace this with a more detailed recipe or link to a recipe page
+    alert(`Recipe for ${foodName}:\n\nIngredients:\n- Ingredient 1\n- Ingredient 2\n- Ingredient 3\n\nInstructions:\n1. Step 1\n2. Step 2\n3. Step 3`);
+  }
+</script>
+
+</body>
+</html>
